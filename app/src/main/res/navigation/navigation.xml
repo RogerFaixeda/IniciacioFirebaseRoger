@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/veureAlumnes">
+
+    <fragment
+        android:id="@+id/veureAlumnes"
+        android:name="com.faixeda.iniciaciofirebaseroger.Home.Veure.VeureAlumnes"
+        android:label="fragment_veure_alumnes"
+        tools:layout="@layout/fragment_veure_alumnes" >
+        <action
+            android:id="@+id/action_veureAlumnes_to_afegir_alumnes"
+            app:destination="@id/afegir_alumnes" />
+        <action
+            android:id="@+id/action_veureAlumnes_to_eliminarAlumnes"
+            app:destination="@id/eliminarAlumnes" />
+        <action
+            android:id="@+id/action_veureAlumnes_to_modificar_alumnes"
+            app:destination="@id/modificar_alumnes" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/eliminarAlumnes"
+        android:name="com.faixeda.iniciaciofirebaseroger.Home.Eliminar.EliminarAlumnes"
+        android:label="fragment_eliminar_alumnes"
+        tools:layout="@layout/fragment_eliminar_alumnes" >
+        <action
+            android:id="@+id/action_eliminarAlumnes_to_veureAlumnes"
+            app:destination="@id/veureAlumnes" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/modificar_alumnes"
+        android:name="com.faixeda.iniciaciofirebaseroger.Home.Modificar.ModificarAlumnes"
+        android:label="fragment_modificar_alumnes"
+        tools:layout="@layout/fragment_modificar_alumnes" >
+        <action
+            android:id="@+id/action_modificar_alumnes_to_veureAlumnes"
+            app:destination="@id/veureAlumnes" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/afegir_alumnes"
+        android:name="com.faixeda.iniciaciofirebaseroger.Home.Afegir.Afegir_alumnes"
+        android:label="fragment_afegir_alumnes"
+        tools:layout="@layout/fragment_afegir_alumnes" >
+        <action
+            android:id="@+id/action_afegir_alumnes_to_veureAlumnes"
+            app:destination="@id/veureAlumnes" />
+    </fragment>
+</navigation>

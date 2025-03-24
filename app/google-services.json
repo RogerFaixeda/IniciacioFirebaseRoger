@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "164166509197",
+    "project_id": "androidfirebase-24aa5",
+    "storage_bucket": "androidfirebase-24aa5.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:164166509197:android:d804f45ae21656a12ef8c4",
+        "android_client_info": {
+          "package_name": "com.faixeda.iniciaciofirebaseroger"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC9vH3Zj0V-nudVfBtJc17JNIdXHyH-w3Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

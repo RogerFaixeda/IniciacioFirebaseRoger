@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">ProjecteCafeteriaRoger2</string>
+    <string name="beguda">Beguda</string>
+    <string name="menjars">Menjars</string>
+    <string name="postres">Postres</string>
+    <string name="pagament">Pagament</string>
+    <string name="inicia_sessi_amb_el_teu_usuari">Iniciar sessió amb el teu usuari</string>
+    <string name="nom">nom</string>
+    <string name="contrassenya">contrassenya</string>
+    <string name="iniciar_sessio">Iniciar sessió</string>
+    <string name="no_tens_compte"><u>No tens compte?</u></string>
+    <string name="nom_d_usuari">Nom d\'usuari</string>
+    <string name="contrasenya">Contrasenya</string>
+    <string name="hello_blank_fragment">hello_blank_fragment</string>
+    <string name="registrar_se">Registrar-se</string>
+    <string name="ja_tens_un_compte"><u>Ja tens un compte?</u></string>
+    <string name="registra_t_per_poder_accedir"><u>Registra\'t per poder accedir!</u></string>
+    <string name="item">item</string>
+    <string name="_0">0</string>
+    <string name="pagar">PAGAR</string>
+    <string name="eliminar">Eliminar</string>
+    <string name="afegir">Afegir</string>
+    <string name="dni">DNI</string>
+    <string name="edat">Edat</string>
+</resources>
